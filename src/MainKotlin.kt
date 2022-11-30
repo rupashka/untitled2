@@ -1,5 +1,7 @@
 fun main() {
-    MainKotlin().a(null, true)
+    val list = listOf("a", "b", "c")
+    list -= "b"
+    println(list)
 }
 
 /**
